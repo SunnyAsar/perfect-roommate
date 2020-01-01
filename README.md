@@ -1,16 +1,16 @@
-# Project Name
+# Perfect Roommate.
+> Find the perfect roommate to share a home with.
 
-> One paragraph statement about the project.
+<!-- ![screenshot](./app_screenshot.png) -->
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Perfect Roommates is an implementation of a UI that could possible be used for finding the perfect roommate(s) to share an apartment with.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS/Sass,
+- Bootstrap,
+- Media queries, flexbox
+
 
 ## Live Demo
 
@@ -41,17 +41,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@SunnyAsar](https://github.com/SunnyAsar)
+- Twitter: [@sunny_asar](https://twitter.com/sunny_asar)
+- Linkedin: [Sunny Asar](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
