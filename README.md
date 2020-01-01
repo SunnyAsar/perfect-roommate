@@ -14,29 +14,19 @@ Perfect Roommates is an implementation of a UI that could possible be used for f
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+<!-- [Live Demo Link](https://livedemo.com) -->
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
-
-### Install
+clone this repo from:
+`https://github.com/SunnyAsar/perfect-roommate`
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+  find the `index.html` file and open with any browser of your choice.
 
 
 ## Authors
