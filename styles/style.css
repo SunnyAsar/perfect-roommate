@@ -1,1 +1,68 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.button, .header .nav-cta .find-button {
+  border-radius: 50px 50px 50px 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background: white;
+}
+
+.header .nav-bar {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav-bar .logo-area {
+  padding: 20px;
+  font-weight: 700;
+}
+
+.header .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav-links li {
+  padding: 20px;
+}
+
+.header .nav-links li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+}
+
+.header .nav-cta {
+  margin-left: 20px;
+}
+
+.header .nav-cta .find-button {
+  font-size: 12px;
+  -webkit-box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
+          box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
+}
+/*# sourceMappingURL=style.css.map */

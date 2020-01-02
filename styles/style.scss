@@ -1,0 +1,58 @@
+$button-color: rgb(0, 157, 168);
+
+.button {
+  border-radius: 50px 50px 50px 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background: white;
+
+  .nav-bar {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-area {
+      padding: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+
+    li {
+      padding: 20px;
+
+      a {
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .nav-cta {
+    margin-left: 20px;
+    .find-button {
+      @extend .button;
+      font-size: 12px;
+      box-shadow: 2px 8px 15px  rgba(0, 157, 168, 0.29);
+    }
+  }
+}
