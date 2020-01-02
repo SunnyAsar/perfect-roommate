@@ -13,6 +13,7 @@ li {
 
 .header {
   background: white;
+  height: 60px;
 }
 
 .header .nav-bar {
@@ -64,5 +65,52 @@ li {
   font-size: 12px;
   -webkit-box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
           box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
+}
+
+.big-header .header-image {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../media//group.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-clip-path: ellipse(100% 60% at 50% 40%);
+          clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+.big-header .header-image .header-content {
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.big-header .header-image .header-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #439A86;
+}
+
+.big-header .header-image .header-content .mobile-icons {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.big-header .header-image .header-content .mobile-icons a {
+  padding: 20 10px;
+  width: 100px;
+  height: 60px;
+}
+
+.big-header .header-image .header-content .mobile-icons a:hover {
+  background: rgba(0, 157, 168, 0.12);
 }
 /*# sourceMappingURL=style.css.map */
