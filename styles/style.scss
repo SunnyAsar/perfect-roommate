@@ -2,6 +2,7 @@ $button-color: rgb(0, 157, 168);
 
 .button {
   border-radius: 50px 50px 50px 50px;
+  box-shadow: 2px 8px 15px  rgba(0, 157, 168, 0.29);
 }
 
 * {
@@ -92,16 +93,16 @@ li {
 
           &:hover {
             background: rgba(0, 157, 168, 0.12);
-          } 
+          }
         }
       }
     }
-  }  
+  }
 }
 
 .filter {
   margin-top: -50px;
-  position: absolute;
+  position: relative;
   width: 100%;
 
   .search-area {
@@ -224,5 +225,47 @@ li {
         background: rgb(250, 205, 147);
       }
     }
+  }
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.booking-system {
+  background: url("../media/group.jpg") no-repeat;
+  background-size: cover;
+  // height: 100%;
+}
+
+.booking-note {
+  margin-left: 20px;
+  padding-left: 60px;
+  p {
+    font-size: 14px;
+    color: grey;
+  }
+
+  .bsb {
+    @extend .button;
+    font-size: 10px;
+  }
+}
+
+.join {
+  background:rgb(255, 238, 239);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // border-radius: 50%/90px 90px 0 0;
+  clip-path: ellipse(100% 60% at 50% 40%);
+
+  p {
+    font-size: 14px;
   }
 }

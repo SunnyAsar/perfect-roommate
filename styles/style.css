@@ -1,5 +1,7 @@
-.button, .header .nav-cta .find-button {
+.button, .header .nav-cta .find-button, .booking-note .bsb {
   border-radius: 50px 50px 50px 50px;
+  -webkit-box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
+          box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
 }
 
 * {
@@ -120,7 +122,7 @@ li {
 
 .filter {
   margin-top: -50px;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -271,5 +273,59 @@ li {
 
 .works .works-cards .works-logo.pick {
   background: #facd93;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0;
+}
+
+.booking-system {
+  background: url("../media/group.jpg") no-repeat;
+  background-size: cover;
+}
+
+.booking-note {
+  margin-left: 20px;
+  padding-left: 60px;
+}
+
+.booking-note p {
+  font-size: 14px;
+  color: grey;
+}
+
+.booking-note .bsb {
+  font-size: 10px;
+}
+
+.join {
+  background: #ffeeef;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-clip-path: ellipse(100% 60% at 50% 40%);
+          clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+.join p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
