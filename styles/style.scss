@@ -152,3 +152,77 @@ li {
     color: grey;
   }
 }
+
+.full-area {
+  height: 100vh;
+  margin-bottom: 20px;
+}
+
+.works {
+  background: rgb(244, 252, 254);
+  height: 70vh;
+  width: 100%;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+
+  .works-area {
+    margin-top: 150px;
+    text-align: center;
+    width: 80%;
+
+    p {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+
+  .works-cards {
+    height: 60vh;
+
+    .box {
+      background: white;
+      border-radius: 10px;
+      max-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+      // box-shadow: 2px 8px 15px  rgba(0, 157, 168, 0.29);
+      box-shadow: 2px 8px 15px  lightgray;
+
+      h4 {
+        margin: 20px 10px;
+        font-size: 20px;
+      }
+
+      &.box2 {
+        margin-top: 50px;
+        height: 50vh;
+      }
+    }
+
+    .works-logo {
+      margin-top: 30px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &.rooms {
+        background: rgb(253, 221, 222);
+      }
+
+      &.location {
+        background: rgb(177, 234, 248);
+      }
+
+      &.pick {
+        background: rgb(250, 205, 147);
+      }
+    }
+  }
+}

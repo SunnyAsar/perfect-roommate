@@ -179,4 +179,97 @@ li {
   font-size: 14px;
   color: grey;
 }
+
+.full-area {
+  height: 100vh;
+  margin-bottom: 20px;
+}
+
+.works {
+  background: #f4fcfe;
+  height: 70vh;
+  width: 100%;
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works .works-area {
+  margin-top: 150px;
+  text-align: center;
+  width: 80%;
+}
+
+.works .works-area p {
+  font-size: 12px;
+  color: gray;
+}
+
+.works .works-cards {
+  height: 60vh;
+}
+
+.works .works-cards .box {
+  background: white;
+  border-radius: 10px;
+  max-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+  -webkit-box-shadow: 2px 8px 15px  lightgray;
+          box-shadow: 2px 8px 15px  lightgray;
+}
+
+.works .works-cards .box h4 {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+
+.works .works-cards .box.box2 {
+  margin-top: 50px;
+  height: 50vh;
+}
+
+.works .works-cards .works-logo {
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.works .works-cards .works-logo.rooms {
+  background: #fdddde;
+}
+
+.works .works-cards .works-logo.location {
+  background: #b1eaf8;
+}
+
+.works .works-cards .works-logo.pick {
+  background: #facd93;
+}
 /*# sourceMappingURL=style.css.map */
