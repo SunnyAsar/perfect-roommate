@@ -255,17 +255,50 @@ li {
 }
 
 .join {
-  background:rgb(255, 238, 239);
-  padding: 30px;
+  background: rgb(255, 238, 239);
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  // border-radius: 50%/90px 90px 0 0;
-  clip-path: ellipse(100% 60% at 50% 40%);
+  clip-path: ellipse(70% 100% at 50% 100%);
 
   p {
     font-size: 14px;
+  }
+}
+
+footer {
+
+  .footer-nav {
+    width: 70%;
+    margin: auto;
+    padding: 40px 10px;
+    color: grey;
+
+    .footer-item {
+
+      .i-span {
+        color: $button-color;
+      }
+
+      .footer-logo {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 18px;
+        color: black;
+      }
+      p {
+        font-size: 14px;
+      }
+
+      li {
+        font-size: 12px;
+        padding: 5px 5px;
+      }
+    }
   }
 }

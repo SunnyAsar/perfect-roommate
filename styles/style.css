@@ -306,7 +306,7 @@ li {
 
 .join {
   background: #ffeeef;
-  padding: 30px;
+  padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,11 +321,40 @@ li {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-clip-path: ellipse(100% 60% at 50% 40%);
-          clip-path: ellipse(100% 60% at 50% 40%);
+  -webkit-clip-path: ellipse(70% 100% at 50% 100%);
+          clip-path: ellipse(70% 100% at 50% 100%);
 }
 
 .join p {
   font-size: 14px;
+}
+
+footer .footer-nav {
+  width: 70%;
+  margin: auto;
+  padding: 40px 10px;
+  color: grey;
+}
+
+footer .footer-nav .footer-item .i-span {
+  color: #009da8;
+}
+
+footer .footer-nav .footer-item .footer-logo {
+  font-size: 20px;
+}
+
+footer .footer-nav .footer-item h4 {
+  font-size: 18px;
+  color: black;
+}
+
+footer .footer-nav .footer-item p {
+  font-size: 14px;
+}
+
+footer .footer-nav .footer-item li {
+  font-size: 12px;
+  padding: 5px 5px;
 }
 /*# sourceMappingURL=style.css.map */
