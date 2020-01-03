@@ -332,7 +332,7 @@ li {
 footer .footer-nav {
   width: 70%;
   margin: auto;
-  padding: 40px 10px;
+  padding-top: 30px;
   color: grey;
 }
 
@@ -345,7 +345,7 @@ footer .footer-nav .footer-item .footer-logo {
 }
 
 footer .footer-nav .footer-item h4 {
-  font-size: 18px;
+  font-size: 14px;
   color: black;
 }
 
@@ -355,6 +355,6 @@ footer .footer-nav .footer-item p {
 
 footer .footer-nav .footer-item li {
   font-size: 12px;
-  padding: 5px 5px;
+  padding: 2px 2px;
 }
 /*# sourceMappingURL=style.css.map */
