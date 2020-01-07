@@ -389,15 +389,33 @@ footer .footer-nav .footer-item li {
   }
   .mobile-filter .dropdown {
     padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .mobile-filter .dropdown button {
     background-color: #009da8;
     border: none;
   }
+  .mobile-filter .dropdown .label {
+    font-size: 10px;
+    color: grey;
+  }
   .mobile-filter .mobile-filter-options {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 15px;
+  }
+  .mobile-filter .mobile-filter-options .mobile-filter-option {
+    color: #009da8;
+    font-size: 12px;
   }
 }
 

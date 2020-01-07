@@ -68,42 +68,42 @@
 
   <main>
 
-  <div class="mobile-filter">
+  <div class="mobile-filter justify-content-center">
 
-    <div class=" mobile-filter-options  justify-content-center">
+    <div class="row mobile-filter-options ">
 
       <div class="dropdown col-xs-4">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Stylhet
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Appartment</a>
-          <a class="dropdown-item" href="#">Gated compound</a>
-          <a class="dropdown-item" href="#">Whole building</a>
+        <div class="border-style search-item">
+          <label for="house" class="label">Located In</label> <br>
+          <select name="" id="house" class="mobile-filter-option">
+            <option value="">Stylhet</option>
+            <option value="">Compound</option>
+            <option value="">Town</option>
+          </select>
+        </div>
+      </div>
+      <div class="dropdown col-xs-4">
+        <div class="border-style search-item">
+          <label for="house" class="label">Property Type</label> <br>
+          <select name="" id="house" class="mobile-filter-option">
+            <option value="">Single Room</option>
+            <option value="">compound</option>
+            <option value="">town</option>
+          </select>
+        </div>
+      </div>
+      <div class="dropdown col-xs-4">
+        <div class="border-style search-item">
+          <label for="house" class="label"> Price Range</label> <br>
+          <select name="" id="house" class="mobile-filter-option">
+            <option value="">$100 - $200</option>
+            <option value="">$200 - $300</option>
+            <option value="">$300 - $300</option>
+          </select>
         </div>
       </div>
 
-      <div class="dropdown col-xs-4">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Room
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Single bedroom</a>
-          <a class="dropdown-item" href="#">2 Bedrooms</a>
-          <a class="dropdown-item" href="#">3 Bedrooms</a>
-        </div>
-      </div>
-
-      <div class="dropdown col-xs-4">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Price
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">100$ - 200$</a>
-          <a class="dropdown-item" href="#">200$ - 300$</a>
-          <a class="dropdown-item" href="#">300$ - 300$</a>
-        </div>
-      </div>
+     
     </div>
 
     <div class=" mobile-filter-button container justify-content-center pt-3">

@@ -340,15 +340,31 @@ footer {
 
     .dropdown {
       padding: 5px;
+      display: flex;
+      justify-content: center;
 
       button {
         background-color: $button-color;
         border: none;
       }
+
+      .label {
+        font-size: 10px;
+        color: grey;
+      }
     }
+
+    
 
     .mobile-filter-options {
       display: flex;
+      justify-content: center;
+      margin-left: 15px;
+
+      .mobile-filter-option {
+        color: $button-color;
+        font-size: 12px;
+      }
     }
   }
 }
