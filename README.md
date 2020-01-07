@@ -1,7 +1,7 @@
 # Perfect Roommate.
 > Find the perfect roommate to share a home with.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](./media/roomi.png)
 
 Perfect Roommates is an implementation of a UI that could possible be used for finding the perfect roommate(s) to share an apartment with.
 
@@ -14,7 +14,7 @@ Perfect Roommates is an implementation of a UI that could possible be used for f
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://perfectrommate.netlify.com/)
 
 
 ## Getting Started
