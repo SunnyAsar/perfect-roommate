@@ -1,3 +1,9 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .button, .header .nav-cta .find-button, .booking-note .bsb {
   border-radius: 50px 50px 50px 50px;
   -webkit-box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
@@ -127,7 +133,7 @@ li {
 }
 
 .filter .search-area {
-  width: 50%;
+  width: 60%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,7 +180,7 @@ li {
           box-shadow: 2px 8px 15px rgba(0, 157, 168, 0.29);
 }
 
-.filter select {
+.filter .filter-option {
   background: transparent;
   border: 0;
   line-height: 70px;
@@ -356,5 +362,48 @@ footer .footer-nav .footer-item p {
 footer .footer-nav .footer-item li {
   font-size: 12px;
   padding: 2px 2px;
+}
+
+@media only screen and (max-width: 769px) {
+  .header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .full-area {
+    display: none;
+  }
+  .booking-system {
+    display: none;
+  }
+  .join {
+    text-align: center;
+  }
+  .filter {
+    display: none;
+  }
+  .mobile-filter {
+    width: 90%;
+    margin: auto;
+  }
+  .mobile-filter .dropdown {
+    padding: 5px;
+  }
+  .mobile-filter .dropdown button {
+    background-color: #009da8;
+    border: none;
+  }
+  .mobile-filter .mobile-filter-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .mobile-filter {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

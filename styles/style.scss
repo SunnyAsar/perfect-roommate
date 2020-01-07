@@ -1,5 +1,11 @@
 $button-color: rgb(0, 157, 168);
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .button {
   border-radius: 50px 50px 50px 50px;
   box-shadow: 2px 8px 15px  rgba(0, 157, 168, 0.29);
@@ -106,7 +112,7 @@ li {
   width: 100%;
 
   .search-area {
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -145,7 +151,7 @@ li {
     box-shadow: 2px 8px 15px  rgba(0, 157, 168, 0.29);
   }
 
-  select {
+  .filter-option {
     background: transparent;
     border: 0;
     line-height: 70px;
@@ -237,12 +243,12 @@ li {
 .booking-system {
   background: url("../media/group.jpg") no-repeat;
   background-size: cover;
-  // height: 100%;
 }
 
 .booking-note {
   margin-left: 20px;
   padding-left: 60px;
+
   p {
     font-size: 14px;
     color: grey;
@@ -250,6 +256,7 @@ li {
 
   .bsb {
     @extend .button;
+
     font-size: 10px;
   }
 }
@@ -278,7 +285,6 @@ footer {
     color: grey;
 
     .footer-item {
-
       .i-span {
         color: $button-color;
       }
@@ -291,6 +297,7 @@ footer {
         font-size: 14px;
         color: black;
       }
+
       p {
         font-size: 14px;
       }
@@ -300,5 +307,54 @@ footer {
         padding: 2px 2px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .full-area {
+    display: none;
+  }
+
+  .booking-system {
+    display: none;
+  }
+
+  .join {
+    text-align: center;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .mobile-filter {
+    width: 90%;
+    margin: auto;
+
+    .dropdown {
+      padding: 5px;
+
+      button {
+        background-color: $button-color;
+        border: none;
+      }
+    }
+
+    .mobile-filter-options {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .mobile-filter {
+    display: none;
   }
 }
