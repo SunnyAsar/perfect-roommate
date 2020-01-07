@@ -35,7 +35,7 @@ clone this repo from:
 
 - Github: [@SunnyAsar](https://github.com/SunnyAsar)
 - Twitter: [@sunny_asar](https://twitter.com/sunny_asar)
-- Linkedin: [Sunny Asar](https://linkedin.com/linkedinhandle)
+- Linkedin: [Sunny Asar](https://www.linkedin.com/in/sunnyasar/)
 
 
 ## 🤝 Contributing
