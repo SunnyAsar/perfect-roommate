@@ -3,7 +3,7 @@
 
 ![screenshot](./media/roomi.png)
 
-Perfect Roommates is an implementation of a UI that could possible be used for finding the perfect roommate(s) to share an apartment with.
+Perfect Roommate is a UI implementation for a web app used to find people to share your apartment with.
 
 ## Built With
 
@@ -42,7 +42,7 @@ clone this repo from:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/SunnyAsar/perfect-roommate/issues).
 
 ## Show your support
 
